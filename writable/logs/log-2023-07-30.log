@@ -1,0 +1,30 @@
+CRITICAL - 2023-07-30 07:10:04 --> Invalid file: "App\views\pager\bs_pagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\views\\pager\\bs_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(126): CodeIgniter\View\View->render('App\\views\\pager\\bs_pagination', null, false)
+ 3 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('group1', 'bs_pagination')
+ 4 APPPATH\Views\home.php(73): CodeIgniter\Pager\Pager->links('group1', 'bs_pagination')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CI_2021501020\\app\\Views\\home.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('home', [], true)
+ 8 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 07:11:07 --> Invalid file: "App\views\pager\bs_pagination.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\views\\pager\\bs_pagination.php')
+ 2 SYSTEMPATH\Pager\Pager.php(126): CodeIgniter\View\View->render('App\\views\\pager\\bs_pagination', null, false)
+ 3 SYSTEMPATH\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('group1', 'bs_pagination')
+ 4 APPPATH\Views\home.php(73): CodeIgniter\Pager\Pager->links('group1', 'bs_pagination')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CI_2021501020\\app\\Views\\home.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('home', [], true)
+ 8 APPPATH\Controllers\Home.php(22): view('home', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-30 07:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-30 07:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
